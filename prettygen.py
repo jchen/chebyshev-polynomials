@@ -39,11 +39,16 @@ for n in range(2,n):
     b = [i * -1 for i in p[n-2]]
     #Debug:# print(a)
     #Debug:# print(b)
-    add = list(map(sum, itertools.zip_longest(a, b, fillvalue=0)))
+    add = list(map(sum, itertools.zip_longest(a, b, fillvalue = 0)))
     #Debug:# print(add)
     p.append(add)
 
 #Debug:# print(p)
+
+print('')
+for n in range(len(p)):
+    print("T_" + str(n) + " = " + poly(p[n]))
+    print('')
 
 # Calculating the mods #
 mod = int(input("Mod? "))
@@ -52,11 +57,6 @@ for n in range(len(modp)):
     modp[n] = [i % mod for i in modp[n]]
 
 print('')
-for n in range(len(p)):
-    print("T_" + str(n) + " = " + poly(p[n]))
-    print('')
-print('')
-
 for n in range(len(modp)):
     print("T_" + str(n) + " = " + poly(modp[n]))
     print('')
