@@ -1,4 +1,5 @@
 import itertools
+import pandas as pd
 
 n = int(input("N? (Must be greater than 3) ")) - 1
 p = [[1],[0,1]]
@@ -38,3 +39,6 @@ for n in range(len(modp)):
 
 print('\n'.join([''.join(['{:3}'.format(item) for item in row])
       for row in modp]))
+
+df = pd.DataFrame(modp)
+df.to_csv("modp-105.csv", header=None)
