@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import itertools
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,7 +7,7 @@ n = int(input("N? ")) + 1
 mod = int(input("Mod? "))
 p = [[1],[0,1]]
 
-for n in range(2,n):
+for n in tqdm(range(2,n)):
     # Multiplies n-1 term by u #
     u = p[n-1].copy()
     u.insert(0,0)
@@ -15,5 +16,5 @@ for n in range(2,n):
     p.append(modn)
 
 plt.imshow(np.array(list(itertools.zip_longest(*p, fillvalue=0))).T, interpolation='none')
-print('Done')
+print('Complete')
 plt.show()
