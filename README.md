@@ -9,7 +9,7 @@ and tan(nx) and prove a different explicit formula using generating functions.
 Finally, we perform visual analyses of the graphs of the polynomials and their
 behaviour when taken modulo p for odd primes p.
 ## Paper
-The paper can be found [here](https://github.com/jiahuac/chebyshev-polynomials/blob/master/paper/main.pdf)
+The paper can be found [here](https://github.com/jiahuac/chebyshev-polynomials/raw/master/paper/main.pdf).
 
 ## Presentation
-The presentation can be found [here](https://github.com/jiahuac/chebyshev-polynomials/blob/master/presentation/main.pdf)
+The presentation can be found [here](https://github.com/jiahuac/chebyshev-polynomials/raw/master/presentation/main.pdf)
