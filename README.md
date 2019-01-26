@@ -8,3 +8,8 @@ these polynomials as well as polynomials related to the expansions of sin(nx)
 and tan(nx) and prove a different explicit formula using generating functions.
 Finally, we perform visual analyses of the graphs of the polynomials and their
 behaviour when taken modulo p for odd primes p.
+## Paper
+The paper can be found [here](https://github.com/jiahuac/chebyshev-polynomials/blob/master/paper/main.pdf)
+
+## Presentation
+The presentation can be found [here](https://github.com/jiahuac/chebyshev-polynomials/blob/master/presentation/main.pdf)
